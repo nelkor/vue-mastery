@@ -2,9 +2,8 @@ import { setHtmlDir, setHtmlLang } from '@/dom'
 
 import { LanguageValue, SupportedLanguage } from './types'
 
+const DEFAULT_LANG = 'en'
 const LS_LANG_KEY = 'lang'
-
-export const DEFAULT_LANG = 'en'
 
 const sanitizeLang = (lang: string): SupportedLanguage =>
   languages[lang as SupportedLanguage]
