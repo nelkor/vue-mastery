@@ -1,3 +1,5 @@
+import './index.scss'
+
 export * from './i18n'
 
 export * from './router'

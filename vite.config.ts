@@ -11,4 +11,11 @@ export default defineConfig({
       '@': resolve('src'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@/shared/tokens";',
+      },
+    },
+  },
 })
