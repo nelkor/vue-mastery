@@ -1,0 +1,9 @@
+body[theme='light'],
+.forced-light {
+  --app-background: #{$white};
+}
+
+body[theme='dark'],
+.forced-dark {
+  --app-background: #{$gray-100};
+}
